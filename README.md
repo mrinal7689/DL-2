@@ -21,6 +21,9 @@ Build a character-level sequence-to-sequence (seq2seq) model that transliterates
 - The model achieves a validation accuracy of over 85% using the LSTM cell architecture.
 - Training time varies between 5–10 minutes on a standard GPU (Colab).
 - The GRU-based model showed slightly faster convergence than vanilla RNN, while LSTM provided the best accuracy.
+![Screenshot 2025-04-20 181939](https://github.com/user-attachments/assets/b6025553-99de-4cbf-bef5-ef196a7b1f33)
+
+
 
 **Tools & Libraries:**
 - Python 3.8+
@@ -54,6 +57,9 @@ Trained on a custom lyrics dataset using Kaggle's [Poetry Dataset](https://www.k
 - The model began generating stylistically accurate lyrics after just 1 epoch.
 - Prompt-based generation produced unique, grammatically correct lines that resemble Kanye West's lyrical patterns.
 - Generation temperature set to 0.9 for creative outputs with top_k = 50 and top_p = 0.95
+
+![Screenshot_20-4-2025_182032_colab research google com](https://github.com/user-attachments/assets/47c119f9-f223-4ed8-9ead-4bac2e2df318)
+
 
 **Tools & Libraries:**
 - Python 3.8+
