@@ -1,4 +1,3 @@
-#  Deep Learning Assignment – 2
 
 This repository contains two deep learning projects developed as part of a sequence modeling assignment. Each explores a different technique for handling sequential data using modern neural architectures in TensorFlow and PyTorch.
 
