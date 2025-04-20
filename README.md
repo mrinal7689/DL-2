@@ -22,7 +22,6 @@ Build a character-level sequence-to-sequence (seq2seq) model that transliterates
 - TensorFlow 2.x
 - NumPy
 
-📁 More details available in `seq2seq/README.md`
 
 ---
 
@@ -52,13 +51,8 @@ Trained on a custom lyrics dataset using Kaggle's [Poetry Dataset](https://www.k
 - Kaggle API
 - NumPy, Pandas
 
-📁 More details available in `GPT2/README.md`
+
 
 ---
 
-## ⚙️ Setup Instructions
 
-1. Clone this repo:
-   ```bash
-   git clone https://github.com/yourusername/deep-learning-assignment-2.git
-   cd deep-learning-assignment-2
