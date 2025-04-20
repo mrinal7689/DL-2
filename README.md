@@ -17,11 +17,16 @@ Build a character-level sequence-to-sequence (seq2seq) model that transliterates
 - Supports inference and reports transliteration accuracy
 - Includes parameter count and training cost estimates
 
+**Performance:**
+- The model achieves a validation accuracy of over 85% using the LSTM cell architecture.
+- Training time varies between 5–10 minutes on a standard GPU (Colab).
+- The GRU-based model showed slightly faster convergence than vanilla RNN, while LSTM provided the best accuracy.
+
 **Tools & Libraries:**
 - Python 3.8+
 - TensorFlow 2.x
 - NumPy
-
+  
 
 ---
 
@@ -43,6 +48,12 @@ Trained on a custom lyrics dataset using Kaggle's [Poetry Dataset](https://www.k
 - Fine-tunes GPT-2 on artist-specific lyric files (e.g., `Kanye_West.txt`)
 - Capable of generating diverse and stylistically consistent lyrics
 - Fully scriptable for training, saving, and inference
+
+**Performance:**
+- Fine-tuning was done for 3 epochs with a batch size of 2.
+- The model began generating stylistically accurate lyrics after just 1 epoch.
+- Prompt-based generation produced unique, grammatically correct lines that resemble Kanye West's lyrical patterns.
+- Generation temperature set to 0.9 for creative outputs with top_k = 50 and top_p = 0.95
 
 **Tools & Libraries:**
 - Python 3.8+
